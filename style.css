@@ -20,12 +20,9 @@ html, body, .button2{
 }
 
 body{
-
-    width: 100vw;
-    width: 100%;
-
     background: var(--linear-bg-color);
     background-repeat: no-repeat;
+    background-size: cover;
     
     height: 100vh;
     
@@ -113,7 +110,7 @@ span p{
     cursor: pointer;
 }
 
-.lock-message:hover{
+.lock-message{
     animation: vibrate 0.2s linear infinite;
 }
 
